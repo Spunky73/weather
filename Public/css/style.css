@@ -1,0 +1,203 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    background-image: url('../images/strom.jpg' ) ;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+} */
+body {
+
+    margin: 0;
+
+    font-family: 'middleton';
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    
+
+    flex-direction: column;
+
+    background-size: cover;
+
+    color: black;
+
+    background-image: url(../image/strom.jpg);
+
+}
+
+.inputval {
+    border-radius: 15px;
+    padding: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    width: 350px;
+    text-align: center;
+    height: 59px;
+}
+
+.search_btn{
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient(to right,#84fab0,#8fd3f4);
+}
+.search_btn:hover{
+    color: black;
+}
+
+
+p {
+    font-size: 42px;
+    bottom: 0;
+    right: 0;
+    /* position: absolute; */
+    color: white;
+}
+
+.card-temp {
+
+    height: 400px;
+    position: relative;
+    background: transparent;
+
+    /* background-image: linear-gradient(90deg,#304352,#d7d2cc); */
+    border-radius: 15px;
+
+}
+
+.weatherD {
+    height: 100%;
+
+}
+
+.card-humi {
+    height: 50%;
+    margin-left: 15px;
+    position: relative;
+    background: transparent;
+    border: 2px solid #605C3C;
+    border-radius: 15px;
+
+}
+
+.card-wind {
+    height: 50%;
+    margin-left: 15px;
+    margin-top: 5px;
+    position: relative;
+    background: transparent;
+
+    /* background-image: linear-gradient(90deg,#dd3e54,#6be585); */
+    border-radius: 15px;
+
+}
+
+
+.weatherDetails{
+    display:  flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 40%; */
+    align-items: center;
+    font-size: 45px;
+
+}
+
+
+/* card css */
+
+/* .padding {
+    padding: 10rem !important;
+    margin-left: 200px;
+    opacity: 100%;
+    border: none;
+}
+
+.card-no-border .card {
+    border-color: #d7dfe3;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05)
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem
+}
+
+html body .dl {
+    display: inline-block
+}
+
+.text-white {
+    color: #ffffff !important
+}
+
+.font-light {
+    font-weight: 300
+}
+
+.card-text:last-child {
+    margin-bottom: 0
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.b-r {
+    border-right: 1px solid rgba(120, 130, 140, 0.13)
+}
+
+.text-info {
+    color: #1e88e5 !important
+}
+
+.display-6 {
+    font-size: 36px
+}
+
+.mdi {
+    display: inline-block;
+    font-family: 'weathericons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.m-l-20 {
+    margin-left: 20px
+}
+
+.m-b-0 {
+    margin-bottom: 0px
+}
+
+small {
+    font-size: 80%;
+    font-weight: 400
+}
+
+.size {
+    width: 100%;
+} */
